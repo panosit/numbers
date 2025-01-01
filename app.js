@@ -20,5 +20,5 @@ function guessNumber() {
 function resetGame() {
   correctNumber = Math.floor(Math.random() * 5)+1
   guessInput.value = ''
-  resultMessage.textContent = ''
+  resultMessage.textContent = '' 
 }
